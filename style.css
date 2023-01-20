@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro';
+    font-style: normal;
+}
+
+body{
+    width: 100vw;
+    background: url('./img/bg.png') no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    
+}
+
+header{
+    width: 100%;
+    height: 900px;
+    background: url("./img/headerbg.png") no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+/* navbar links settings here */
+.navBar {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav a{
+    color: rgba(250, 250, 250, 0.6);
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    text-decoration: none;
+    margin:  0 60px;
+    transition: 0.3s ease;
+}
+
+.nav a:hover{
+    color: white;
+}
+.navRight a{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 21px 30px;
+    gap: 10px;
+    background: #123B53;
+}
+.navRight a:hover{
+    opacity: 0.8;
+}
+
+.welcome{
+    width: 100%;
+    height: 100%;
+    padding-top: 83px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.welcome .welcomeTxt {
+    width: 550px;
+    height: 550px;
+    padding-top: 32px;
+}
+.welcome .welcomeTxt h1{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.welcome .welcomeTxt span{
+    color: #A9DEEE;
+}
+
+.welcome .welcomeTxt p{
+    width: 463px;
+    height: 68px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    margin-top: 24px;
+    color: rgba(250, 250, 250, 0.8);
+}
+
+.welcome .welcomeTxt .startCollecting{
+    width: 100%;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 21px 30px;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.startCollecting a{
+    color: #A9DEEE;
+    background: none;
+    color: #123B53;
+    font-weight: 700;
+    text-decoration: none;
+    width: 196px;
+    height: 68px;
+    margin-top: 70px;
+    background-color: #A9DEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.startCollecting  a:last-child{
+    color: #A9DEEE;
+    background: none;
+}
+
+
+/* here is header nft styles */
+
+.mainNft {
+    width: 550px;
+    height: 550px;
+    background: rgba(250, 250, 250, 0.15);
+    backdrop-filter: blur(45px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainNft .nft {
+    width: 470px;
+    height: 470px;
+    border-radius: 15px;
+    background: url('./img/nft1.jpg') no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+
+.nameNft {
+    color: white;
+    width: 306px;
+    height: 189px;
+    background: #123B53;
+    position: absolute;
+    right: -104px;
+    bottom: 44px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 24px;
+}
+.nameNft h3{
+    margin-bottom: 16px;
+}
+
+.priceDiv {
+    width: 256px;
+    height: 89px;
+    background: rgba(169, 222, 238, 0.1);
+    padding: 16px;
+}
+
+.priceDiv p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    
+    color: rgba(250, 250, 250, 0.6);
+}
+
+.eth span{
+    color: rgba(250, 250, 250, 0.6);
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.space{
+    width: 100%;
+    height: 186px;
+    background: rgba(250, 250, 250, 0.1);
+    backdrop-filter: blur(45px);
+}
+
+section{
+    width: 100vw;
+    height: 1047px;
+    background: url('./img/leftsideAngle.png') no-repeat;
+    background-position: top left;
+    background-size: 594px;
+}
+.sectionNft {
+    width: 100%;
+    padding-top: 48px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nftBgBlur{
+    width: 509px;
+    height: 509px;
+    background: rgba(250, 250, 250, 0.15);
+    backdrop-filter: blur(45px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nft2 {
+    width: 442px;
+    height: 442px;
+    background: url('./img/monkey2.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.nameNft2{
+    top: 48px;
+    left: -172px;
+}
+.highPrice {
+    width: 509px;
+    height: 509px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* discover nartz marketplace styling here */
+.discoverNartz {
+    width: 100%; 
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.highPrice h1, .discoverNartz h1{
+    color: #FFFFFF;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 140%;
+    margin-bottom: 24px;
+}
+.highPrice span , .discoverNartz span{
+    color: #A9DEEE;
+}
+
+.highPrice p, .discoverNartz p{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 48px;
+}
+
+.discoverNartz p{
+    width: 400px;
+}
+
+.registerAsAtrist a{
+    color: #123B53;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 21px 30px;
+    gap: 10px;
+    background: #A9DEEE;
+    text-decoration: none;
+}
+
+
+/* grid nft section styling here */
+
+.gridSection {
+    width: 100%;
+    height: 914px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 360px 360px 360px;
+    gap: 30px;
+    background: none;
+}
+
+.grid {
+    width: 360px;
+    height: 774px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    background: rgba(169, 222, 238, 0.1);
+}
+
+.grid .nft {
+    width: 360px;
+    height: 360px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(150, 150, 150, 0.25);
+    backdrop-filter: blur(37.5px);
+}
+.grid .nft img{
+    width: 310px;
+    height: 310px;
+    border-radius: 10px;
+}
+.grid .nftName{
+    color: white;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    padding-left: 25px;
+}
+
+.grid .price{
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+}
+
+.grid .price .currentPrice , .listPrice{
+    width: 145px;
+    height: 98px;
+    padding: 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    background: rgba(169, 222, 238, 0.1);
+}
+
+.price .currentPrice > p, .listPrice > p{
+    color: rgba(250, 250, 250, 0.6);
+        font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+/* here styling  button and form which creates your bid on each nft */
+
+.artist {
+    width: 100%;
+    height: 126px;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.artist .artistImg {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: url('./img/unnamed.gif') no-repeat center;
+    background-size: cover;
+}
+
+.artist .artistInfo p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: rgba(250, 250, 250, 0.6);
+    margin-bottom: 16px;
+}
+
+.artist .artistInfo h4{
+    color: white;
+}
+.btndiv {
+    width: 100%;
+    padding: 25px;
+}
+.btndiv > button{
+    display: none;
+}
+.placeBid {
+    width: 100%;
+    margin-bottom: 24px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 30px;
+    gap: 10px;
+    background: #A9DEEE;
+    border: none;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+
+form input{
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    border: none;
+    background: rgba(169, 222, 238, 0.1);
+
+}
+form button{
+    color: #123B53;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100px;
+    border: none;
+    background: #A9DEEE;
+    cursor: pointer;
+}
+form button:hover{
+    background:rgba(250, 250, 250, 0.6) ;
+}
