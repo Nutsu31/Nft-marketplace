@@ -448,3 +448,228 @@ form button{
 form button:hover{
     background:rgba(250, 250, 250, 0.6) ;
 }
+
+
+
+/* collection section styling here */
+
+.collectionSection {
+    width: 100%;
+    height: 628px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.collectionSection p{
+    width: 400px;
+    color: rgba(250, 250, 250, 0.8);
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    text-align: center;
+}
+
+.collectionSection a{
+    color: #123B53;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 150%;
+    width: 216px;
+    height: 69px;
+    background: #A9DEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.collectionSection h1{
+    width: 484px;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.collectionSection h1 > span{
+    color: #A9DEEE;
+}
+
+.infoWrapper {
+     width: 100%;
+     height: 360px;
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+}
+
+.infoWrapper .div{
+    width: 360px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(169, 222, 238, 0.1);
+}
+
+.infoWrapper .div .n{
+    color: #123B53;
+    font-size: 18px;
+    font-weight: 700;
+    width: 36px;
+    height: 36px;
+    background: #A9DEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 7px 7px 1px rgba(169, 222, 238, 0.2);
+}
+
+.infoWrapper .div h4{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;    
+}
+
+.infoWrapper p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: rgba(250, 250, 250, 0.8);
+    text-align: center;
+}
+
+.formWrapper{
+    width: 100%;
+    height: 728px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formWrapper form{
+    width: 1140px;
+    height: 441px;
+    background: url('./img/emailBg.png') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 65px;
+}
+
+.formWrapper .inputWrapper {
+    width: 548px;
+    height: 98px;
+    padding: 30px;
+    background: #123B53;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formWrapper form h1{
+    width: 483px;
+    height: 148px;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 140%;
+    text-align: center;
+    color: #123B53;
+}
+
+
+
+.inputWrapper > input {
+    background: transparent;
+}
+
+.inputWrapper .subscribe {
+    width: 144px;
+    height: 68px;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 150%;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 352px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 172px;
+}
+
+.socialWrapper{
+    width: 450px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 38px;
+
+}
+
+.socialWrapper p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: rgba(250, 250, 250, 0.8);
+}
+
+.socialImgWrapper {
+    width: 240px;
+    height: fit-content;
+    display: flex;
+    gap: 30px;
+}
+
+table {
+    /* width: 100%; */
+    display: flex;
+    /* flex-direction: row; */
+}
+tbody {
+    width: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 150px;
+}
+tbody th{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FAFAFA;
+    opacity: 0.85;
+}
+table tr{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+table td > a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: rgba(250, 250, 250, 0.6);
+    opacity: 0.85;    
+    text-decoration: none;
+}
+
